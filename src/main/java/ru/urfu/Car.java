@@ -1,12 +1,8 @@
 package ru.urfu;
 /**
- * Пример одного из возможных видов транспорта. Например, велосипед.
+ * Пример одного из возможных видов транспорта. Например, автомобиль.
  */
-public class Bike implements Transport {
-    @Override
-    public void drive(Person person, Position destination) {
-        person.setPosition(destination);
-    }
+public class Car implements Transport{
 
     @Override
     public Position getPosition() {
@@ -17,5 +13,10 @@ public class Bike implements Transport {
     @Override
     public void setPosition(Position position) {
         //реализация не имеет значения
+    }
+
+    @Override
+    public void drive(Person person, Position destination) {
+        person.setPosition(destination);
     }
 }

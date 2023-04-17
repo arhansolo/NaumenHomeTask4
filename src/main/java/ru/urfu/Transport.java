@@ -1,7 +1,6 @@
 package ru.urfu;
 /**
  * Транспорт
- *
  */
 public interface Transport extends Positioned{
     /**

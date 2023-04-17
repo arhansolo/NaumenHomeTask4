@@ -5,7 +5,7 @@ package ru.urfu;
 public class Bike implements Transport {
     @Override
     public void drive(Person person, Position destination) {
-        person.setPosition(destination);
+        //person.setPosition(destination);
     }
 
     @Override

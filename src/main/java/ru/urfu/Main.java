@@ -17,7 +17,6 @@ public class Main {
         if (person.getPosition() != destination){
             person.walk(destination);
         }
-        // TODO
         assert person.getPosition() == destination;
     }
 }

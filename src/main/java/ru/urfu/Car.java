@@ -2,7 +2,6 @@ package ru.urfu;
 
 /**
  * Автомобиль
- *
  */
 public interface Car {
     /**
